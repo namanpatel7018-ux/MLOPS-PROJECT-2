@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: house-price-api
-          image: namanpatel088/house-price-api:latest
+          image: DOCKERHUB_USERNAME/house-price-api:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000

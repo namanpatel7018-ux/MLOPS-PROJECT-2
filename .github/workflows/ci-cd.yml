@@ -139,8 +139,6 @@ jobs:
 
             echo "Starting deployment..."
 
-            cd ~/k8s
-
             echo "Applying Kubernetes Service..."
 
             sudo k3s kubectl apply -f service.yaml
